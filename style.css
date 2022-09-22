@@ -10,9 +10,19 @@ body * {
     font-family: 'Work Sans', sans-serif;
 }
 
-body {
-    background-color: #000;
-} 
+body { 
+    background-image: url(./assets/bgblack.png);
+    background-position: top left;
+    position: absolute;
+    width: 50%;
+}
+
+.bg-image {
+    background-image: url(./assets/bg.png);
+    height: 663px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
 
 .logo img {
     height: 94px;
@@ -35,6 +45,7 @@ body {
 
 .presentation p {
     color: #fff;
+    font-size: 14px;
 }
 
 .email {
